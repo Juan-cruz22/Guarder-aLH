@@ -1,0 +1,75 @@
+.navconteiner{
+    background-color: #02432b;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+
+/* LOGO */
+.imgNav{
+    width: 25%;
+    height: 100%;
+}
+.imageNav{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* RESERVA AHORA - BUTTON*/
+.buttonNavRA{
+    display: flex;
+    background-color: #02432b;
+    width: 40%;
+    justify-content: center;
+}
+
+.buttonRA{
+    border: none;
+    background-color: #02432b;
+    color: white;
+    width: 40%;
+    height: 100%;
+    font-size: 150%;
+    text-decoration: 3px underline yellow;
+    cursor: pointer;
+}
+
+.buttonRA:hover{
+    transition: all 0.4s;
+    background-color: #003320;
+}
+
+.buttonRA:not(:hover){
+    transition: all 0.4s;
+}
+
+/* BUTTONS LANDING */
+
+.buttonNav{
+    display: flex;
+    width: 30%;
+}
+
+.buttonLand{
+    border: none;
+    background-color: #02432b;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 130%;
+}
+
+.buttonLand:hover{
+    background-color: #003320;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.buttonLand:not(:hover){
+    transition: all 0.4s;
+}

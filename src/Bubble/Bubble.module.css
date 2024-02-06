@@ -1,0 +1,26 @@
+.bubbleWhatsapp{
+    display: block;
+    position: fixed;
+    z-index: 2;
+    justify-content: right;
+    left: 90%;
+    top: 80vh;
+}
+
+.bubbleInstagram{
+    display: block;
+    position: fixed;
+    z-index: 2;
+    left: 90%;
+    top: 90vh;
+}
+
+.imgBWhatsapp{
+    width: 80px;
+    margin-left: 90%;
+}
+
+.imgBInstagram{
+    width: 80px;
+    margin-left: 90%;
+}

@@ -1,0 +1,48 @@
+.imgPhotosBackground{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.3);
+    position: absolute;
+    z-index: -1;
+}
+
+.conteinerPhotos{
+display: flex;
+flex-wrap: nowrap;
+overflow: scroll;
+}
+
+.imgPhotos{
+    flex: 1 0 auto;
+    margin: 10px; 
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
+
+.conteinerEspacios{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.conteinerText{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 3% ;
+    margin-bottom: 3%;
+}
+
+.pespacios{
+    font-size: 50px;
+}

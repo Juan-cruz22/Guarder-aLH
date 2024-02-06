@@ -1,0 +1,74 @@
+.imgUbicacionBackground{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    filter:brightness(0.3);
+    position: absolute;
+    z-index: -1;
+}
+
+.conteinerUbication{
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+}
+
+.conteinerText{
+    display: inline-block;
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titleUbication{
+    font-size: 60px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.gmap_canvas{
+    display: inline-block;
+    width: 50vh;
+    margin-top: 100px;
+    text-align: center;
+}
+
+iframe{
+    border-radius: 2%;
+    width: 130%;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.textClick{
+    text-decoration: underline;
+}
+
+.textClick:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1560px) {
+    .gmap_canvas{
+        display: inline-block;
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .conteinerText{
+        display: inline-block;
+        width: 100%;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    iframe{
+        border-radius: 2%;
+        width: 100%;
+        height: 500px;
+        margin-left: 0px;
+    }
+}

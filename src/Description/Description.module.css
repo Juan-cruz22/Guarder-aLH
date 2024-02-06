@@ -1,0 +1,29 @@
+.conteinerDescription{
+    background-color: #02432b;
+    color: white;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.conteinerButton{
+    margin-top: 10px;
+    background-color: #02432b;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.buttonDescription{
+    background-color: #fbff00;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 100%;
+}

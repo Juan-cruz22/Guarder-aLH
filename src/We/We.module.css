@@ -1,0 +1,64 @@
+.imgWe{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter:brightness(0.3);
+    position: absolute;
+    z-index: -1;
+    margin-top: 80px;
+}
+
+.conteinerWe{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25%;
+    height: 100vh;
+}
+
+.titleWe{
+    font-size: 80px;
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+.textWe{
+    font-size: 30px;
+}
+
+.textWeTE{
+    font-size: 40px;
+    color: #fbff00;
+}
+
+.conteinertextWe{
+    width: 100vh;
+    height: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+    .conteinerWe{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 0%;
+    }
+
+    .conteinertextWe{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .textWe{
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
