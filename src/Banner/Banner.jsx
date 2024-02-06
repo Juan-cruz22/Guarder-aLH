@@ -9,7 +9,7 @@ export default function Banner() {
             <div className={style.conteinertext}>
                 <div className={style.conteinerStars}>
                     <img className={style.imgStars} src="../../images/STARS.png"></img>
-                    <h2 className={style.textBanner}>UNA ESTADÍA EN CONTACTO CON LA NATURALEZA</h2>
+                    <h2 className={style.textBanner}>UNA ESTADÍ EN CONTACTO CON LA NATURALEZA</h2>
                 </div>
             </div>
         </div>
