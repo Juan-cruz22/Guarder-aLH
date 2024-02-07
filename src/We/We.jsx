@@ -1,12 +1,13 @@
 import React from "react";
 import style from "./We.module.css"
+import WeBack from "../../images/PHOTOS09.jpg"
 
 export default function We() {
 
     return (
         <>
         <div>
-            <img src="../../images/PHOTOS09.jpg" className={style.imgWe}/>
+            <img src={WeBack} className={style.imgWe}/>
         </div>
 
         <div className={style.conteinerWe}>

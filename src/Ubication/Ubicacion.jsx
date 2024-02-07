@@ -1,10 +1,11 @@
 import React from "react";
 import style from "./Ubicacion.module.css"
+import uBicBack from "../../images/PHOTOS03.jpeg"
 
 export default function Ubicacion() {
     return (
         <>
-        <img className={style.imgUbicacionBackground} src="../../images/PHOTOS03.jpeg"></img>
+        <img className={style.imgUbicacionBackground} src={uBicBack}></img>
 
         <div className={style.conteinerUbication} >
             <div className={style.conteinerText}>

@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Nav.module.css'
+import DDFF from '../../images/DDFF.png'
 
 export default function Nav() {
 
@@ -7,7 +8,7 @@ export default function Nav() {
         <>
         <div className={style.navconteiner}>
             <div className={style.imgNav}>
-                <img className={style.imageNav} src="../../images/DDFF.png"></img>
+                <img className={style.imageNav} src={DDFF}></img>
             </div>
             <div className={style.buttonNavRA}>
                 <button className={style.buttonRA}>RESERVA AHORA</button>
