@@ -5,7 +5,7 @@ export default function Banner() {
 
     return (
         <div className={style.conteinerBanner}>
-        <img className={style.imgBanner} src="../../images/BANNER.jpg"></img>
+        <img className={style.imgBanner} src="../../images/BANNER.jpg" alt="banner"></img>
             <div className={style.conteinertext}>
                 <div className={style.conteinerStars}>
                     <img className={style.imgStars} src="../../images/STARS.png"></img>
