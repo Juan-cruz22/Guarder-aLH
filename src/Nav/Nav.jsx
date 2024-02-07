@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './Nav.module.css'
-import DDFF from '../../images/DDFF.png'
+import style from './Nav.module.css';
+import DDFF from '../../images/DDFF.png';
 
 export default function Nav() {
 
