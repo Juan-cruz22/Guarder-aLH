@@ -10,7 +10,7 @@ export default function Banner() {
         <img className={style.imgBanner} src={BANNER} alt="banner"></img>
             <div className={style.conteinertext}>
                 <div className={style.conteinerStars}>
-                    <img className={style.imgStars} src={STARS}></img>
+                    <img className={style.imgStars} src={STARS} alt="stars"></img>
                     <h2 className={style.textBanner}>UNA ESTADÍA EN CONTACTO CON LA NATURALEZA</h2>
                 </div>
             </div>
