@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Banner.module.css"
-import BANNER from "../../images/PHOTOS01.jpg"
+import BANNER from "../../images/PHOTOS01.jpeg"
 import STARS from "../../images/STARS.png"
 
 export default function Banner() {
