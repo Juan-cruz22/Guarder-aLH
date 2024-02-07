@@ -8,7 +8,7 @@ export default function Nav() {
         <>
         <div className={style.navconteiner}>
             <div className={style.imgNav}>
-                <img className={style.imageNav} src={DDFF}></img>
+                <img className={style.imageNav} src={DDFF} alt="logo"></img>
             </div>
             <div className={style.buttonNavRA}>
                 <button className={style.buttonRA}>RESERVA AHORA</button>
