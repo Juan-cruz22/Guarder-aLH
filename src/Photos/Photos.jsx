@@ -2,11 +2,11 @@ import React from "react";
 import style from "./Photos.module.css";
 import P01 from "../../images/PHOTOS01.jpeg";
 import P02 from "../../images/PHOTOS02.jpeg";
-import P03 from "../../images/PHOTOS03.jpg";
+import P03 from "../../images/PHOTOS03.jpeg";
 import P04 from "../../images/PHOTOS04.jpg";
 import P05 from "../../images/PHOTOS05.jpg";
-import P07 from "../../images/PHOTOS07.jpg";
-import P08 from "../../images/PHOTOS08.jpg";
+import P07 from "../../images/PHOTOS07.png";
+import P08 from "../../images/PHOTOS08.png";
 
 
 
