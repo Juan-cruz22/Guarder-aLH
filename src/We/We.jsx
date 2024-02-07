@@ -1,6 +1,6 @@
 import React from "react";
-import style from "./We.module.css"
-import WeBack from "../../images/PHOTOS09.jpg"
+import style from "./We.module.css";
+import WeBack from "../../images/PHOTOS09.jpg";
 
 export default function We() {
 
