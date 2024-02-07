@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Banner.module.css"
-import BANNER from "../../images/PHOTOS01.jpeg"
+import BANNER from "../../images/BANNER.jpg"
 import STARS from "../../images/STARS.png"
 
 export default function Banner() {
@@ -10,7 +10,7 @@ export default function Banner() {
         <img className={style.imgBanner} src={BANNER} alt="banner"></img>
             <div className={style.conteinertext}>
                 <div className={style.conteinerStars}>
-                    <img className={style.imgStars} src={STARS} alt="stars"></img>
+                    <img className={style.imgStars} src={STARS}></img>
                     <h2 className={style.textBanner}>UNA ESTADÍA EN CONTACTO CON LA NATURALEZA</h2>
                 </div>
             </div>
