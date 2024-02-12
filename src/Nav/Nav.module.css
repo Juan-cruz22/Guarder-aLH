@@ -96,4 +96,12 @@
         object-fit: cover;
         cursor: pointer;
     }
+    .navconteiner{
+        background-color: #02432b;
+        height: 8%;
+        display: flex;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
 }
