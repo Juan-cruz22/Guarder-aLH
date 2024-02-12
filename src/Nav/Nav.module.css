@@ -73,3 +73,9 @@
 .buttonLand:not(:hover){
     transition: all 0.4s;
 }
+
+@media screen and (max-width: 1000px) {
+    .buttonLand{
+        display: none;
+    }
+}
