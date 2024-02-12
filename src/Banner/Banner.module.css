@@ -38,7 +38,7 @@
 
 .conteinerStars{
     position: sticky;
-    top: 20px;
+    top: 10%;
 }
 
 @media screen and (max-width: 1000px) {
