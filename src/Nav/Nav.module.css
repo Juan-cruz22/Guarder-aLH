@@ -92,7 +92,15 @@ li a.active, li a:hover{
     .check:checked ~ ul {
         left: 0;
     }
-    .logo{
-        height: 30px;
+
+    .enlace{
+        position: absolute;
+        width: 70%;
+        padding: 20px 0px;
     }
+    
+    .logo{
+        height: 45px;
+    }
+    
 }
