@@ -24,8 +24,9 @@
 .buttonNavRA{
     display: flex;
     background-color: #02432b;
-    width: 40%;
     justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .buttonRA{
@@ -33,9 +34,9 @@
     background-color: yellow;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    width: 40%;
+    min-width: 160px;
     height: 100%;
-    font-size: 120%;
+    font-size: 100%;
     object-fit: cover;
     cursor: pointer;
 }
@@ -53,7 +54,8 @@
 
 .buttonNav{
     display: flex;
-    width: 30%;
+    width: 35%;
+    gap: 10px;
 }
 
 .buttonLand{
@@ -62,7 +64,7 @@
     color: white;
     width: 100%;
     height: 100%;
-    font-size: 130%;
+    font-size: 100%;
 }
 
 .buttonLand:hover{
