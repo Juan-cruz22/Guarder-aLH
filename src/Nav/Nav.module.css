@@ -1,6 +1,6 @@
 .navconteiner{
     background-color: #02432b;
-    height: 80px;
+    height: 10%;
     display: flex;
     position: fixed;
     width: 100%;
@@ -30,12 +30,13 @@
 
 .buttonRA{
     border: none;
-    background-color: #02432b;
-    color: white;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     width: 40%;
     height: 100%;
-    font-size: 150%;
-    text-decoration: 3px underline yellow;
+    font-size: 120%;
+    object-fit: cover;
     cursor: pointer;
 }
 
