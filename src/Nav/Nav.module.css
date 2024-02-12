@@ -81,7 +81,19 @@
     .buttonLand{
         display: none;
     }
-    .navconteiner{
-        display: none;
+    .imgNav{
+        width: 40%;
+        height: 100%;
+    }
+    .buttonRA{
+        border: none;
+        background-color: yellow;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        width: 40%;
+        height: 100%;
+        font-size: 100%;
+        object-fit: cover;
+        cursor: pointer;
     }
 }
