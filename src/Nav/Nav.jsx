@@ -1,17 +1,17 @@
 import React from 'react';
 import style from './Nav.module.css';
 import DDFF from '../../images/DDFF.png';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBars} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function Nav() {
-
     return (
         <>
             <nav>
-                <input type="checkbox" className={style.check}/>
+                {/* Mover el input checkbox dentro del nav */}
+                <input type="checkbox" id="check" className={style.check} />
                 <label htmlFor="check" className={style.checkbtn}>
-                    <FontAwesomeIcon icon={faBars}/>
+                    <FontAwesomeIcon icon={faBars} />
                 </label>
                 <a href='/' className={style.enlace}>
                     <img className={style.logo} src={DDFF} alt="" />

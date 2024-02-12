@@ -89,7 +89,7 @@ li a.active, li a:hover{
         color: red;
     }
     /* Ajuste en el selector */
-    .check:checked ~ nav ul {
+    .check:checked ~ ul {
         left: 0;
     }
     .logo{
